@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Libre+Baskerville&family=Merriweather:wght@700&family=Work+Sans&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  color: rgb(96 101 123);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  align-self: center;
+  background: rgb(255 255 255);
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  padding: 30px;
+  
+}
+.sub-container{
+  box-shadow: 0 0 15px rgba(0, 0, 0, 1.3);
+}
+.main-content {
+  max-width: 50rem;
+  width: 100%;
+  min-height: 200px;
+  height: auto;
+  padding: 18px 18px 120px 18px;
+  position: relative;
+  resize: none;
+  box-shadow: 0 12px 48px 0px rgb(109 117 141 / 20%);
+  background: rgb(255 255 255);
+  border: 0.5px solid rgb(231 233 245);
+  border-radius: 26px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  color: rgb(43 45 56);
+  text-align: center;
+  font-size: 48px;
+  letter-spacing: -0.2px;
+  font-family: "Merriweather", serif;
+}
+p {
+  max-width: 50rem;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 100px;
+  font-family: "Times New Roman", Times, serif;
+}
+.btn-style button {
+  background-color: #2fafddbe;
+  color: #140000;
+  border: 0px solid;
+  padding: 10px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+
+}
+.btn-style button:hover {
+  background-color: #f89c12;
+  color: #140000;
+}
+.btn-style {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin-top: 24px;
+  
 }
